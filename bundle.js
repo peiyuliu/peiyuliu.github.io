@@ -475,7 +475,7 @@
 	
 	
 	// module
-	exports.push([module.id, "#title{color: #222222;\n    font-size: 30px;\n    font-style: normal;\n    font-weight: 100;\n}\n\n.subtitle1{color: #000000;\n    font-size: 16px;\n    font-style: normal;\n    font-weight: 500;\n    border-bottom: 1px solid;\n    border-bottom-color: #000000;\n    }\n\n.subtitle2{color: #000000;\n    font-size: 16px;\n    font-weight: 300;\n}\n\n.date{color: #000000;\n    font-size: 10px;\n    font-style: italic;\n    font-weight: 200;\n}\n\n.wrapper{\n    padding: 10px 10px 0 10px;\n    ;\n}", ""]);
+	exports.push([module.id, "#title{color: #222222;\n    font-size: 30px;\n    font-style: normal;\n    font-weight: 100;\n}\n\n.subtitle1{color: #000000;\n    font-size: 16px;\n    font-style: normal;\n    font-weight: 500;\n    border-bottom: 1px solid;\n    border-bottom-color: #000000;\n    }\n\n.subtitle2{color: #000000;\n    font-size: 16px;\n    font-weight: 300;\n}\n\n.date{color: #000000;\n    font-size: 10px;\n    font-style: italic;\n    font-weight: 200;\n}\n\n.wrapper{\n    padding: 20px 10px 0 10px;\n    ;\n}\n\n.wrapperbtm{\n    padding-bottom: 10px;\n}", ""]);
 	
 	// exports
 

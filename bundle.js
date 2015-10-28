@@ -475,7 +475,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".hi {\n    background-color: rgba(50,50,50,0.5);\n}\n#ya{\n    background-color: #006600;\n}\n#no{\n    background-color: #440044;\n\n}", ""]);
+	exports.push([module.id, "#title{color: #222222;\n    font-size: 30px;\n    font-style: normal;\n    font-weight: 100;\n}\n\n.subtitle1{color: #000000;\n    font-size: 16px;\n    font-style: normal;\n    font-weight: 500;\n    border-bottom: 1px solid;\n    border-bottom-color: #000000;\n    }\n\n.subtitle2{color: #000000;\n    font-size: 16px;\n    font-weight: 300;\n}\n\n.date{color: #000000;\n    font-size: 10px;\n    font-style: italic;\n    font-weight: 200;\n}", ""]);
 	
 	// exports
 

@@ -1,10 +1,12 @@
-#title{color: #222222;
+#title{
+    color: #222222;
     font-size: 30px;
     font-style: normal;
     font-weight: 100;
 }
 
-.subtitle1{color: #000000;
+.subtitle1{
+    color: #000000;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -12,26 +14,45 @@
     border-bottom-color: #000000;
     }
 
-.subtitle2{color: #000000;
+.subtitle2{
+    color: #000000;
     font-size: 16px;
     font-weight: 300;
 }
 
-.date{color: #000000;
+.date{
+    color: #000000;
     font-size: 10px;
     font-style: italic;
     font-weight: 200;
 }
 
-.wrapper{
-    padding: 20px 10px 0 10px;
-    ;
+.contactMeInf{
+    font-size: 14px;
+    font-weight: 200;
 }
 
-.wrapperbtm{
-    padding-bottom: 10px;
-}
+.wrapper{  padding: 20px 10px 0 10px;  }
 
-.pegaProject{
-    display: none;
-}
+.wrapperbtm{  padding-bottom: 10px;  }
+
+.wrapperProject{ padding: 2px 0 2px 0}
+
+.pegaProjectContents{  display: none;  }
+.pegaProject:hover{  color: rgba(130, 130, 130, 10);  }
+
+#imgOpen1{display: none}
+#imgClose1{display: inline-block}
+
+.ntuProjectContents{  display: none;  }
+.ntuProject:hover{  color:  rgba(130, 130, 130, 10);  }
+
+#imgOpenNpI{display: none}
+#imgCloseNpI{display: inline-block}
+
+
+a:link {  color: black  }
+
+a:visited {  color: #761c19;  }
+
+a:hover {  color: darkorange;  }

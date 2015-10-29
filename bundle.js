@@ -58,7 +58,63 @@
 	
 	__webpack_require__(11);
 	
-	console.log('hello world!');
+	//PEGA Project Open & Close
+	var pp = document.querySelector(".pegaProject");
+	
+	var status1 = 0;
+	function show1() {
+	    if (status1 === 0) {
+	        document.querySelector(".pegaProjectContents").style.display = 'block';
+	        status1 = 1;
+	    } else if (status1 === 1) {
+	        document.querySelector(".pegaProjectContents").style.display = 'none';
+	        status1 = 0;
+	    }
+	}
+	pp.addEventListener("click", show1);
+	
+	var status2 = 1;
+	function show2() {
+	    if (status2 === 0) {
+	        document.querySelector("#imgOpen1").style.display = 'none';
+	        document.querySelector("#imgClose1").style.display = 'inline-block';
+	        status2 = 1;
+	    } else if (status2 === 1) {
+	        document.querySelector("#imgOpen1").style.display = 'inline-block';
+	        document.querySelector("#imgClose1").style.display = 'none';
+	        status2 = 0;
+	    }
+	}
+	pp.addEventListener("click", show2);
+	
+	//NTU Project Open & Close
+	var Np = document.querySelector(".ntuProject");
+	
+	var statusNpC = 0;
+	function showNpC() {
+	    if (statusNpC === 0) {
+	        document.querySelector(".ntuProjectContents").style.display = 'block';
+	        statusNpC = 1;
+	    } else if (statusNpC === 1) {
+	        document.querySelector(".ntuProjectContents").style.display = 'none';
+	        statusNpC = 0;
+	    }
+	}
+	Np.addEventListener("click", showNpC);
+	
+	var statusNp = 1;
+	function showNpI() {
+	    if (statusNp === 0) {
+	        document.querySelector("#imgOpenNpI").style.display = 'none';
+	        document.querySelector("#imgCloseNpI").style.display = 'inline-block';
+	        statusNp = 1;
+	    } else if (statusNp === 1) {
+	        document.querySelector("#imgOpenNpI").style.display = 'inline-block';
+	        document.querySelector("#imgCloseNpI").style.display = 'none';
+	        statusNp = 0;
+	    }
+	}
+	Np.addEventListener("click", showNpI);
 
 /***/ },
 /* 2 */
@@ -446,7 +502,7 @@
 	
 	
 	// module
-	exports.push([module.id, "#title{color: #222222;\n    font-size: 30px;\n    font-style: normal;\n    font-weight: 100;\n}\n\n.subtitle1{color: #000000;\n    font-size: 16px;\n    font-style: normal;\n    font-weight: 500;\n    border-bottom: 1px solid;\n    border-bottom-color: #000000;\n    }\n\n.subtitle2{color: #000000;\n    font-size: 16px;\n    font-weight: 300;\n}\n\n.date{color: #000000;\n    font-size: 10px;\n    font-style: italic;\n    font-weight: 200;\n}\n\n.wrapper{\n    padding: 20px 10px 0 10px;\n    ;\n}\n\n.wrapperbtm{\n    padding-bottom: 10px;\n}", ""]);
+	exports.push([module.id, "#title{\n    color: #222222;\n    font-size: 30px;\n    font-style: normal;\n    font-weight: 100;\n}\n\n.subtitle1{\n    color: #000000;\n    font-size: 16px;\n    font-style: normal;\n    font-weight: 500;\n    border-bottom: 1px solid;\n    border-bottom-color: #000000;\n    }\n\n.subtitle2{\n    color: #000000;\n    font-size: 16px;\n    font-weight: 300;\n}\n\n.date{\n    color: #000000;\n    font-size: 10px;\n    font-style: italic;\n    font-weight: 200;\n}\n\n.contactMeInf{\n    font-size: 14px;\n    font-weight: 200;\n}\n\n.wrapper{  padding: 20px 10px 0 10px;  }\n\n.wrapperbtm{  padding-bottom: 10px;  }\n\n.wrapperProject{ padding: 2px 0 2px 0}\n\n.pegaProjectContents{  display: none;  }\n.pegaProject:hover{  color: rgba(130, 130, 130, 10);  }\n\n#imgOpen1{display: none}\n#imgClose1{display: inline-block}\n\n.ntuProjectContents{  display: none;  }\n.ntuProject:hover{  color:  rgba(130, 130, 130, 10);  }\n\n#imgOpenNpI{display: none}\n#imgCloseNpI{display: inline-block}\n\n\na:link {  color: black  }\n\na:visited {  color: #761c19;  }\n\na:hover {  color: darkorange;  }", ""]);
 	
 	// exports
 

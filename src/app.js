@@ -5,34 +5,36 @@ import "../src/css/index.css"
 //PEGA Project Open & Close
 var pp = document.querySelector(".pegaProject")
 
-var status1 = 0
-function show1(){
-    if(status1 === 0){
+var statusPpC = 0
+function showPpC(){
+    if(statusPpC === 0){
         document.querySelector(".pegaProjectContents").style.display='block'
-        status1 = 1
+        statusPpC = 1
     }
-    else if(status1 === 1){
+    else if(statusPpC === 1){
         document.querySelector(".pegaProjectContents").style.display='none'
-        status1 = 0
+        statusPpC = 0
     }
 }
-pp.addEventListener("click", show1)
+pp.addEventListener("click", showPpC)
 
-var status2 = 1
-function show2(){
-    if(status2 === 0){
-        document.querySelector("#imgOpen1").style.display='none'
-        document.querySelector("#imgClose1").style.display='inline-block'
-        status2 = 1
+var statusPpI = 1
+function showPpI(){
+    if(statusPpI === 0){
+        document.querySelector("#imgDownBlackPega").style.display='none'
+        document.querySelector("#imgUpBlackPega").style.display='inline-block'
+        statusPpI = 1
     }
-    else if(status2 === 1){
-        document.querySelector("#imgOpen1").style.display='inline-block'
-        document.querySelector("#imgClose1").style.display='none'
-        status2 = 0
+    else if(statusPpI === 1){
+        document.querySelector("#imgDownBlackPega").style.display='inline-block'
+        document.querySelector("#imgUpBlackPega").style.display='none'
+        statusPpI = 0
     }
 }
-pp.addEventListener("click", show2)
+pp.addEventListener("click", showPpI)
 
+//pp.addEventListener("mOver", showPpIG)
+//pp.addEventListener("mOut", showPpIbG)
 
 //NTU Project Open & Close
 var Np = document.querySelector(".ntuProject")
@@ -50,17 +52,17 @@ function showNpC(){
 }
 Np.addEventListener("click", showNpC)
 
-var statusNp = 1
+var statusNpI = 1
 function showNpI(){
-    if(statusNp === 0){
+    if(statusNpI === 0){
         document.querySelector("#imgOpenNpI").style.display='none'
         document.querySelector("#imgCloseNpI").style.display='inline-block'
-        statusNp = 1
+        statusNpI = 1
     }
-    else if(statusNp === 1){
+    else if(statusNpI === 1){
         document.querySelector("#imgOpenNpI").style.display='inline-block'
         document.querySelector("#imgCloseNpI").style.display='none'
-        statusNp = 0
+        statusNpI = 0
     }
 }
 Np.addEventListener("click", showNpI)

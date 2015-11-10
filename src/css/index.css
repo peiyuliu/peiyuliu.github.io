@@ -33,16 +33,14 @@
 }
 
 .wrapper{  padding: 20px 10px 0 10px;  }
-
 .wrapperbtm{  padding-bottom: 10px;  }
-
 .wrapperProject{ padding: 2px 0 2px 0}
 
 .pegaProjectContents{  display: none;  }
 .pegaProject:hover{  color: rgba(130, 130, 130, 10);  }
 
-#imgOpen1{display: none}
-#imgClose1{display: inline-block}
+#imgUpBlackPega{display: inline-block}
+#imgDownBlackPega{display: none}
 
 .ntuProjectContents{  display: none;  }
 .ntuProject:hover{  color:  rgba(130, 130, 130, 10);  }
